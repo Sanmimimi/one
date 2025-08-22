@@ -4,18 +4,18 @@ import { themes } from 'prism-react-renderer'
 import social from './data/social'
 import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '苏ICP备2020017848号-3'
-const beian1 = '苏公网安备35021102000847号'
+const beian = '京ICP备2020017848号-3'
+const beian1 = '京公网安备35021102000847号'
 
 const config: Config = {
-  title: '言兑林夕',
+  title: '王腾',
   url: 'https://kuizuo.me',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'kuizuo',
   projectName: 'blog',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: '少年当有鸿鹄志，曾许人间第一流',
     description:
       '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目。',
   },
