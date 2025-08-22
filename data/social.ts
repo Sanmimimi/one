@@ -29,24 +29,24 @@ type SocialValue = {
 
 const social: Social = {
   github: 'https://github.com/kuizuo',
-  x: 'https://x.com/kuizuo',
-  juejin: 'https://juejin.cn/user/1565318510545901',
+  //x: 'https://x.com/kuizuo',
+  //juejin: 'https://juejin.cn/user/1565318510545901',
   wx: 'https://img.kuizuo.me/wechat.png',
   qq: 'https://img.kuizuo.me/qq.png',
   qqmusic: 'https://y.qq.com',
   zhihu: 'https://www.zhihu.com/people/kuizuo',
   cloudmusic: 'https://music.163.com',
-  taobao: 'https://shop.taobao.com/your-taobao-shop-id',
-  xianyu: 'https://www.goofish.com/',
+  //taobao: 'https://shop.taobao.com/your-taobao-shop-id',
+  //xianyu: 'https://www.goofish.com/',
   xiaohongshu: 'https://www.xiaohongshu.com',
   email: 'mailto:hi@kuizuo.me',
   discord: 'https://discord.gg/M8cVcjDxkz',
   douyin: 'https://www.douyin.com',
   weibo: 'https://weibo.com',
   bilibili: 'https://bilibili.com',
-  youtube: 'https://www.youtube.com',
-  facebook: 'https://www.facebook.com',
-  instagram: 'https://www.instagram.com',
+  //youtube: 'https://www.youtube.com',
+  //facebook: 'https://www.facebook.com',
+  //instagram: 'https://www.instagram.com',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
