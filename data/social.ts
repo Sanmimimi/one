@@ -6,6 +6,9 @@ export type Social = {
   qqmusic?: string
   wx?: string
   cloudmusic?: string
+  xiaohongshu?: string
+  xianyu?: string
+  taobao?: string
   zhihu?: string
   email?: string
   discord?: string
@@ -33,6 +36,9 @@ const social: Social = {
   qqmusic: 'https://y.qq.com',
   zhihu: 'https://www.zhihu.com/people/kuizuo',
   cloudmusic: 'https://music.163.com',
+  taobao: 'https://shop.taobao.com/your-taobao-shop-id',
+  xianyu: 'https://2.taobao.com/YOUR_XIANYU_ID',
+  xiaohongshu: 'https://www.xiaohongshu.com/user/profile/YOUR_XIAOHONGSHU_ID',
   email: 'mailto:hi@kuizuo.me',
   discord: 'https://discord.gg/M8cVcjDxkz',
   douyin: 'https://www.douyin.com',
@@ -62,6 +68,12 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     icon: 'simple-icons:tiktok',
     color: '#FF0050',
   },
+  xiaohongshu: {
+    href: social.xiaohongshu,
+    title: '小红书',
+    icon: 'ri:book-line',
+    color: '#FF2442',  
+  },
   wx: {
     href: social.wx,
     title: '微信',
@@ -79,6 +91,18 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: '知乎',
     icon: 'ri:zhihu-line',
     color: '#1772F6',
+  },
+  taobao: {
+    href: social.taobao,
+    title: '淘宝',
+    icon: 'ri:shopping-bag-line',
+    color: '#FF6900',
+  },
+  xianyu: {
+    href: social.xianyu,
+    title: '闲鱼',
+    icon: 'ri:fish-line',
+    color: '#FF7F00',  
   },
   qqmusic: {
     href: social.qqmusic,
