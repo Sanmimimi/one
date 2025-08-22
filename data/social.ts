@@ -11,6 +11,9 @@ export type Social = {
   douyin?: string
   weibo?: string
   bilibili?: string
+  youtube?: string
+  facebook?: string
+  instagram?: string
 }
 
 type SocialValue = {
@@ -33,6 +36,9 @@ const social: Social = {
   douyin: 'https://www.douyin.com',
   weibo: 'https://weibo.com',
   bilibili: 'https://bilibili.com',
+  youtube: 'https://www.youtube.com',
+  facebook: 'https://www.facebook.com',
+  instagram: 'https://www.instagram.com',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
@@ -101,6 +107,24 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: 'X',
     icon: 'ri:twitter-x-line',
     color: '#000',
+  },
+  youtube: {
+    href: social.youtube,
+    title: 'YouTube',
+    icon: 'ri:youtube-line',
+    color: '#FF0000',
+  },
+  facebook: {
+    href: social.facebook,
+    title: 'Facebook',
+    icon: 'ri:facebook-line',
+    color: '#1877F2',
+  },
+  instagram: {
+    href: social.instagram,
+    title: 'Instagram',
+    icon: 'ri:instagram-line',
+    color: '#E4405F',  
   },
   discord: {
     href: social.discord,
