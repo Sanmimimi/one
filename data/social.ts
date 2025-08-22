@@ -30,9 +30,9 @@ const social: Social = {
   cloudmusic: 'https://music.163.com',
   email: 'mailto:hi@kuizuo.me',
   discord: 'https://discord.gg/M8cVcjDxkz',
-  douyin: 'https://www.douyin.com/user/your-douyin-id',
-  weibo: 'https://weibo.com/your-weibo-id',
-  bilibili: 'https://space.bilibili.com/your-bilibili-id',
+  douyin: 'https://www.douyin.com',
+  weibo: 'https://weibo.com',
+  bilibili: 'https://space.bilibili.com',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
