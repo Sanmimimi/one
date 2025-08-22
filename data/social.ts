@@ -7,7 +7,6 @@ export type Social = {
   wx?: string
   cloudmusic?: string
   xiaohongshu?: string
-  xianyu?: string
   taobao?: string
   zhihu?: string
   email?: string
@@ -37,7 +36,6 @@ const social: Social = {
   zhihu: 'https://www.zhihu.com/people/kuizuo',
   cloudmusic: 'https://music.163.com',
   //taobao: 'https://shop.taobao.com/your-taobao-shop-id',
-  //xianyu: 'https://www.goofish.com/',
   xiaohongshu: 'https://www.xiaohongshu.com',
   email: 'mailto:hi@kuizuo.me',
   discord: 'https://discord.gg/M8cVcjDxkz',
@@ -97,12 +95,6 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: '淘宝',
     icon: 'ri:shopping-bag-line',
     color: '#FF6900',
-  },
-  xianyu: {
-    href: socialLinks.xianyu,
-    title: '闲鱼',
-    icon: 'mdi:fish',
-    color: '#FF6A00',  
   },
   qqmusic: {
     href: social.qqmusic,
