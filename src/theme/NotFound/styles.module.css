@@ -1,0 +1,46 @@
+.notFoundContainer {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.notFoundContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.notFoundImage {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.notFoundTitle {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.notFoundDescription {
+  font-size: 1.2rem;
+  color: var(--ifm-color-secondary);
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .notFoundImage {
+    max-width: 300px;
+  }
+  
+  .notFoundTitle {
+    font-size: 2rem;
+  }
+  
+  .notFoundDescription {
+    font-size: 1rem;
+  }
+}
