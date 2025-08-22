@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import ReactDOM from 'react-dom'
-import { usePopper } from 'react-popper'
+import { useFloating, autoUpdate, offset, flip, shift, arrow } from '@floating-ui/react'
 import styles from './styles.module.css'
 
 interface Props {
@@ -13,24 +13,17 @@ interface Props {
 
 export default function Tooltip({ children, id, anchorEl, text, delay }: Props): JSX.Element {
   const [open, setOpen] = useState(false)
-  const [referenceElement, setReferenceElement] = useState<HTMLElement | null>(null)
-  const [popperElement, setPopperElement] = useState<HTMLElement | null>(null)
-  const [arrowElement, setArrowElement] = useState<HTMLElement | null>(null)
   const [container, setContainer] = useState<Element | null>(null)
-  const { styles: popperStyles, attributes } = usePopper(referenceElement, popperElement, {
-    modifiers: [
-      {
-        name: 'arrow',
-        options: {
-          element: arrowElement,
-        },
-      },
-      {
-        name: 'offset',
-        options: {
-          offset: [0, 8],
-        },
-      },
+  const arrowRef = useRef<HTMLElement | null>(null)
+  const { refs, floatingStyles, context } = useFloating({
+    whileElementsMounted: autoUpdate,
+    middleware: [
+      offset(8),
+      flip(),
+      shift(),
+      arrow({
+        element: arrowRef,
+      }),
     ],
   })
 
@@ -63,7 +56,7 @@ export default function Tooltip({ children, id, anchorEl, text, delay }: Props):
 
       // Remove the title ahead of time to avoid displaying
       // two tooltips at the same time (native + this one).
-      referenceElement?.removeAttribute('title')
+      refs.reference.current?.removeAttribute('title')
 
       timeout.current = window.setTimeout(() => {
         setOpen(true)
@@ -75,33 +68,33 @@ export default function Tooltip({ children, id, anchorEl, text, delay }: Props):
       setOpen(false)
     }
 
-    if (referenceElement) {
+    if (refs.reference.current) {
       showEvents.forEach((event) => {
-        referenceElement.addEventListener(event, handleOpen)
+        refs.reference.current?.addEventListener(event, handleOpen)
       })
 
       hideEvents.forEach((event) => {
-        referenceElement.addEventListener(event, handleClose)
+        refs.reference.current?.addEventListener(event, handleClose)
       })
     }
 
     return () => {
-      if (referenceElement) {
+      if (refs.reference.current) {
         showEvents.forEach((event) => {
-          referenceElement.removeEventListener(event, handleOpen)
+          refs.reference.current?.removeEventListener(event, handleOpen)
         })
 
         hideEvents.forEach((event) => {
-          referenceElement.removeEventListener(event, handleClose)
+          refs.reference.current?.removeEventListener(event, handleClose)
         })
       }
     }
-  }, [referenceElement, text, delay])
+  }, [refs.reference, text, delay])
 
   return (
     <>
       {React.cloneElement(children, {
-        'ref': setReferenceElement,
+        'ref': refs.setReference,
         'aria-describedby': open ? tooltipId : undefined,
       })}
       {container
@@ -110,13 +103,12 @@ export default function Tooltip({ children, id, anchorEl, text, delay }: Props):
               <div
                 id={tooltipId}
                 role="tooltip"
-                ref={setPopperElement}
+                ref={refs.setFloating}
                 className={styles.tooltip}
-                style={popperStyles.popper}
-                {...attributes.popper}
+                style={floatingStyles}
               >
                 {text}
-                <span ref={setArrowElement} className={styles.tooltipArrow} style={popperStyles.arrow} />
+                <span ref={arrowRef} className={styles.tooltipArrow} />
               </div>
             ),
             container,
