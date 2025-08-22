@@ -8,7 +8,7 @@ const beian = '京ICP备2020017848号-3'
 const beian1 = '京公网安备35021102000847号'
 
 const config: Config = {
-  title: '王腾',
+  title: '美若黎明',
   url: 'https://kuizuo.me',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
