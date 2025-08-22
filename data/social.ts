@@ -32,7 +32,7 @@ const social: Social = {
   discord: 'https://discord.gg/M8cVcjDxkz',
   douyin: 'https://www.douyin.com',
   weibo: 'https://weibo.com',
-  bilibili: 'https://space.bilibili.com',
+  bilibili: 'https://bilibili.com',
 }
 
 const socialSet: Record<keyof Social | 'rss', SocialValue> = {
