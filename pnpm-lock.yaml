@@ -164,6 +164,30 @@ packages:
       typescript:
         optional: true
 
+  '@docusaurus/core@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    hasBin: true
+    dependencies:
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      '@swc/core':
+        optional: true
+      typescript:
+        optional: true
+
   '@docusaurus/faster@3.8.1':
     resolution: {integrity: sha512-example}
     engines: {node: '>=20.0'}
@@ -192,3 +216,56 @@ packages:
     resolution: {integrity: sha512-example}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  '@mdx-js/react@3.0.0':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: '>=16.8.0'
+
+  '@mdx-js/react@3.0.0(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      react: 19.0.0
+    peerDependencies:
+      react: '>=16.8.0'
+
+  '@rspack/core@1.4.5':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=16.0.0'}
+    hasBin: true
+
+  '@swc/core@1.12.11':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  '@swc/helpers@0.5.13':
+    resolution: {integrity: sha512-example}
+
+  '@docusaurus/types@3.8.1':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/types@3.8.1(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/types': 3.8.1(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)
+      '@swc/helpers': 0.5.13
+    peerDependencies:
+      '@docusaurus/types': '*'
+    peerDependenciesMeta:
+      '@swc/helpers':
+        optional: true
