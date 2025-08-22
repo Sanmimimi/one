@@ -92,9 +92,9 @@ importers:
       react-icon-cloud:
         specifier: ^4.1.7
         version: 4.1.7(react@19.0.0)
-      react-popper:
-        specifier: ^2.3.0
-        version: 2.3.0(@popperjs/core@2.11.8)(react@19.0.0)
+      '@floating-ui/react':
+        specifier: ^0.26.28
+        version: 0.26.28(react@19.0.0)(react-dom@19.0.0)
       react-tweet:
         specifier: ^3.2.1
         version: 3.2.1(react@19.0.0)
@@ -148,6 +148,16 @@ packages:
     resolution: {integrity: sha512-example}
     engines: {node: '>= 14.0.0'}
 
+  '@floating-ui/react@0.26.28(react@19.0.0)(react-dom@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/react-dom': 2.1.2(react-dom@19.0.0)(react@19.0.0)
+      '@floating-ui/utils': 0.2.8
+      tabbable: 6.2.0
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
   '@docusaurus/core@3.8.1':
     resolution: {integrity: sha512-example}
     engines: {node: '>=20.0'}
@@ -175,6 +185,31 @@ packages:
     resolution: {integrity: sha512-example}
 
   '@types/scheduler@0.23.0':
+    resolution: {integrity: sha512-example}
+
+  '@floating-ui/react-dom@2.1.2(react-dom@19.0.0)(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/dom': 1.6.12
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@floating-ui/utils@0.2.8':
+    resolution: {integrity: sha512-example}
+
+  '@floating-ui/dom@1.6.12':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/core': 1.6.8
+      '@floating-ui/utils': 0.2.8
+
+  '@floating-ui/core@1.6.8':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/utils': 0.2.8
+
+  'tabbable@6.2.0':
     resolution: {integrity: sha512-example}
 
   '@docusaurus/plugin-vercel-analytics@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
