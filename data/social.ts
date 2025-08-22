@@ -3,6 +3,7 @@ export type Social = {
   x?: string
   juejin?: string
   qq?: string
+  qqmusic?: string
   wx?: string
   cloudmusic?: string
   zhihu?: string
@@ -29,6 +30,7 @@ const social: Social = {
   juejin: 'https://juejin.cn/user/1565318510545901',
   wx: 'https://img.kuizuo.me/wechat.png',
   qq: 'https://img.kuizuo.me/qq.png',
+  qqmusic: 'https://y.qq.com',
   zhihu: 'https://www.zhihu.com/people/kuizuo',
   cloudmusic: 'https://music.163.com',
   email: 'mailto:hi@kuizuo.me',
@@ -77,6 +79,12 @@ const socialSet: Record<keyof Social | 'rss', SocialValue> = {
     title: '知乎',
     icon: 'ri:zhihu-line',
     color: '#1772F6',
+  },
+  qqmusic: {
+    href: social.qqmusic,
+    title: 'QQ音乐',
+    icon: 'ri:music-line',
+    color: '#31C27C',  
   },
   cloudmusic: {
     href: social.cloudmusic,
