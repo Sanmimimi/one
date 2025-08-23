@@ -76,8 +76,9 @@ const config: Config = {
         {
           title: '学习',
           items: [
-            { label: '博客', to: 'blog' },
+            { label: '空间', to: 'blog' },
             { label: '归档', to: 'blog/archive' },
+            { label: '标签', to: 'blog/tags' },
             { label: '实战项目', to: 'project' },
             { label: '前端示例', to: 'https://example.kuizuo.me' },
           ],
