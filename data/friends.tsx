@@ -72,9 +72,9 @@ export const Friends: Friend[] = [
     avatar: 'https://fernandogprieto.com/img/logo.png',
   },
   {
-    title: '尚宇',
-    description: '心怀理想，仰望星空，埋头苦干',
-    website: 'https://www.disnox.top',
+    title: 'ysh',
+    description: '生命中有过的所有灿烂，原来终究都需要用寂寞来偿还',
+    website: 'https://www.douyin.com',
     avatar: '/img/friend/disnox.png',
   },
   {
