@@ -17,7 +17,7 @@ const config: Config = {
   customFields: {
     bio: '少年当有鸿鹄志，曾许人间第一流',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目。',
+      '是一个由我创建的个人博客，主要分享编程开发知识和项目。',
   },
   themeConfig: {
     // announcementBar: {
@@ -52,7 +52,7 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: '博客', position: 'right', to: 'blog' },
+        { label: '空间', position: 'right', to: 'blog' },
         { label: '项目', position: 'right', to: 'project' },
         { label: '友链', position: 'right', to: 'friends' },
         { label: '关于', position: 'right', to: 'about' },
