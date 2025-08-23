@@ -21,7 +21,7 @@ Docusaurus 网站是一个 React 单页应用。 你可以像一般的 React 应
 
 所以博客页面，也就是首页。但仅仅只有博客是远远不够的，所以便添加了 Hero 组件，也就是首次访问博客的样子。
 
-主页右侧 SVG 背景文件地址: `src/components/Hero/img/hero_main.svg`, 插画来源于 [unDraw](https://undraw.co/illustrations)，在这个网站可以找到这类插画风格的背景。或者你可以找专门设计插画的人为你设计。
+主页右侧 SVG 背景文件地址: `src/components/landing/Hero/img/hero.svg`, 插画来源于 [unDraw](https://undraw.co/illustrations)，在这个网站可以找到这类插画风格的背景。或者你可以找专门设计插画的人为你设计。
 
 ## 自定义页面
 
