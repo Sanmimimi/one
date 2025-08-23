@@ -80,7 +80,7 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '标签', to: 'blog/tags' },
             { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.me' },
+            { label: '前端示例', to: 'https://www.douyin.com/' },
           ],
         },
         {
@@ -96,11 +96,11 @@ const config: Config = {
         {
           title: '网站',
           items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.me' },
+            { label: '哔哩哔哩', to: 'https://www.bilibili.com' },
             { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
-            { label: 'api服务', to: 'https://api.kuizuo.me' },
-            { label: '便民服务', to: 'https://service.kuizuo.me' },
-            { label: '朋友圈', to: 'https://uptime.kuizuo.me' },
+            { label: '微博', to: 'https://www.weibo.com' },
+            { label: '抖音', to: 'https://www.douyin.com' },
+            { label: '朋友圈', to: 'https://www.douyin.com/' },
           ],
         },
         {
