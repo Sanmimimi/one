@@ -1,6 +1,5 @@
 import React from 'react';
-import ImageViewer from './index';
-import { useImageViewer } from './useImageViewer';
+import { useImageViewerContext } from './ImageViewerProvider';
 import styles from './EnhancedImage.module.css';
 
 interface EnhancedImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
@@ -18,7 +17,7 @@ const EnhancedImage: React.FC<EnhancedImageProps> = ({
   onClick,
   ...props 
 }) => {
-  const { isOpen, src: viewerSrc, alt: viewerAlt, openViewer, closeViewer } = useImageViewer();
+  const { openViewer } = useImageViewerContext();
 
   const handleClick = (e: React.MouseEvent<HTMLImageElement>) => {
     if (enableViewer) {
@@ -33,24 +32,13 @@ const EnhancedImage: React.FC<EnhancedImageProps> = ({
   };
 
   return (
-    <>
-      <img
-        {...props}
-        src={src}
-        alt={alt}
-        className={`${enableViewer ? styles.clickableImage : ''} ${className}`}
-        onClick={handleClick}
-      />
-      
-      {enableViewer && (
-        <ImageViewer
-          src={viewerSrc}
-          alt={viewerAlt}
-          isOpen={isOpen}
-          onClose={closeViewer}
-        />
-      )}
-    </>
+    <img
+      {...props}
+      src={src}
+      alt={alt}
+      className={`${enableViewer ? styles.clickableImage : ''} ${className}`}
+      onClick={handleClick}
+    />
   );
 };
 
