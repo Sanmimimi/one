@@ -1,7 +1,7 @@
 import React from 'react';
-import { MDXProvider } from '@mdx-js/react';
-import MDXContent from '@theme-original/MDXContent';
-import { EnhancedImage } from '@site/src/components/ImageViewer/EnhancedImage';
+import OriginalMDXContent from '@theme-original/MDXContent';
+import type { Props } from '@theme/MDXContent';
+import EnhancedImage from '@site/src/components/ImageViewer/EnhancedImage';
 
 // MDX组件映射，将img标签替换为我们的EnhancedImage组件
 const MDXComponents = {
@@ -10,10 +10,8 @@ const MDXComponents = {
   ),
 };
 
-export default function MDXContentWrapper(props: any): JSX.Element {
+export default function MDXContent(props: Props): JSX.Element {
   return (
-    <MDXProvider components={MDXComponents}>
-      <MDXContent {...props} />
-    </MDXProvider>
+    <OriginalMDXContent {...props} components={MDXComponents} />
   );
 }
