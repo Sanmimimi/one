@@ -42,7 +42,7 @@ export default function BlogPostGridItems({ items }: BlogPostItemsProps): JSX.El
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 block size-full rounded-lg bg-neutral-100 dark:bg-slate-800/[0.8]"
+                  className="absolute inset-0 block size-full rounded-lg bg-neutral-100 dark:bg-slate-800/[0.8] pointer-events-none"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{
