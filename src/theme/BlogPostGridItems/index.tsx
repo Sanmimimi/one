@@ -75,13 +75,15 @@ export default function BlogPostGridItems({ items }: BlogPostItemsProps): JSX.El
                       {item.tags.slice(0, 2).map(({ label, permalink: tagPermalink, description }, index) => (
                         <>
                           {index !== 0 && '/'}
-                          <Tag
-                            label={label}
-                            description={description}
-                            permalink={tagPermalink}
-                            key={tagPermalink}
-                            className="tag"
-                          />
+                          <div onClick={(e) => e.stopPropagation()}>
+                            <Tag
+                              label={label}
+                              description={description}
+                              permalink={tagPermalink}
+                              key={tagPermalink}
+                              className="tag"
+                            />
+                          </div>
                         </>
                       ))}
                     </>
