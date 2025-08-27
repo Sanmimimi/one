@@ -8,6 +8,8 @@ import styles from './styles.module.css'
 export default function Tag({ permalink, label, count, className, onClick }: Props & { className?: string; onClick?: (e: React.MouseEvent) => void }): JSX.Element {
   const handleClick = (e: React.MouseEvent) => {
     if (onClick) {
+      e.preventDefault()
+      e.stopPropagation()
       onClick(e)
     }
   }
