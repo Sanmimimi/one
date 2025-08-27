@@ -14,6 +14,16 @@ export default function Tag({ permalink, label, count, className, onClick }: Pro
     }
   }
 
+  // 如果没有自定义onClick，渲染为span以避免干扰卡片点击
+  if (!onClick) {
+    return (
+      <span className={cn(styles.tag, count ? styles.tagWithCount : styles.tagRegular, className)}>
+        {label}
+        {count && <span>{count}</span>}
+      </span>
+    )
+  }
+
   return (
     <Link href={permalink} className={cn(styles.tag, count ? styles.tagWithCount : styles.tagRegular, className)} onClick={handleClick}>
       {label}
