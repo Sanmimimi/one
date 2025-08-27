@@ -16,12 +16,7 @@ export default function BlogPostItemHeaderTitle({ className }: Props): JSX.Eleme
             title
           )
         : (
-            <Link 
-              itemProp="url" 
-              to={permalink} 
-              className={styles.titleLink}
-              onClick={(e) => e.stopPropagation()}
-            >
+            <Link itemProp="url" to={permalink} className={styles.titleLink}>
               {title}
             </Link>
           )}
