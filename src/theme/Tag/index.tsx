@@ -5,27 +5,9 @@ import React from 'react'
 
 import styles from './styles.module.css'
 
-export default function Tag({ permalink, label, count, className, onClick }: Props & { className?: string; onClick?: (e: React.MouseEvent) => void }): JSX.Element {
-  const handleClick = (e: React.MouseEvent) => {
-    if (onClick) {
-      e.preventDefault()
-      e.stopPropagation()
-      onClick(e)
-    }
-  }
-
-  // 如果没有自定义onClick，渲染为span以避免干扰卡片点击
-  if (!onClick) {
-    return (
-      <span className={cn(styles.tag, count ? styles.tagWithCount : styles.tagRegular, className)}>
-        {label}
-        {count && <span>{count}</span>}
-      </span>
-    )
-  }
-
+export default function Tag({ permalink, label, count, className }: Props & { className?: string }): JSX.Element {
   return (
-    <Link href={permalink} className={cn(styles.tag, count ? styles.tagWithCount : styles.tagRegular, className)} onClick={handleClick}>
+    <Link href={permalink} className={cn(styles.tag, count ? styles.tagWithCount : styles.tagRegular, className)}>
       {label}
       {count && <span>{count}</span>}
     </Link>
