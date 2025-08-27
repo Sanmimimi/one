@@ -38,11 +38,11 @@ export default function BlogPostGridItems({ items }: BlogPostItemsProps): JSX.El
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
-          <Link href={item.link} className="block h-full w-full hover:no-underline">
+          <Link href={item.link} className="hover:no-underline">
             <AnimatePresence>
               {hoveredIndex === idx && (
                 <motion.span
-                  className="absolute inset-0 block size-full rounded-lg bg-neutral-100 dark:bg-slate-800/[0.8] pointer-events-none"
+                  className="absolute inset-0 block size-full rounded-lg bg-neutral-100 dark:bg-slate-800/[0.8]"
                   layoutId="hoverBackground"
                   initial={{ opacity: 0 }}
                   animate={{
@@ -111,7 +111,7 @@ export const Card = ({
         className,
       )}
     >
-      <div className="relative">
+      <div className="relative z-50">
         <div className="p-2">{children}</div>
       </div>
     </div>
