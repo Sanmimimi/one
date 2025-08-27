@@ -81,11 +81,6 @@ export default function BlogPostGridItems({ items }: BlogPostItemsProps): JSX.El
                             permalink={tagPermalink}
                             key={tagPermalink}
                             className="tag"
-                            onClick={(e: React.MouseEvent) => {
-                              e.preventDefault()
-                              e.stopPropagation()
-                              window.location.href = tagPermalink
-                            }}
                           />
                         </>
                       ))}
