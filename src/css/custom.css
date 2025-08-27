@@ -297,17 +297,3 @@ div[class^='announcementBar_'] {
   )::after {
   content: '';
 }
-
-/* 禁用所有评论时间链接的点击跳转 */
-.gsc-comment .gsc-comment-header .gsc-comment-header-date a,
-.gsc-comment-header-date a {
-  pointer-events: none !important;
-  cursor: default !important;
-  text-decoration: none !important;
-}
-
-.gsc-comment .gsc-comment-header .gsc-comment-header-date a:hover,
-.gsc-comment-header-date a:hover {
-  text-decoration: none !important;
-  color: inherit !important;
-}
