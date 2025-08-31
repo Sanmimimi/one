@@ -17,7 +17,7 @@ const config: Config = {
   customFields: {
     bio: '少年当有鸿鹄志，曾许人间第一流',
     description:
-      '是一个由我创建的个人博客，主要分享编程开发知识和项目。',
+      '是一个由我创建的个人空间，主要分享编程开发知识和项目。',
   },
   themeConfig: {
     // announcementBar: {
