@@ -100,7 +100,7 @@ const config: Config = {
             { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
             { label: '微博', to: 'https://www.weibo.com' },
             { label: '抖音', to: 'https://www.douyin.com' },
-            { label: '高考倒计时', to: 'https://a.shxy.dpdns.org/353535.html' },
+            { label: '高考倒计时', to: 'https://a.wxya.top/353535.html' },
           ],
         },
         {
