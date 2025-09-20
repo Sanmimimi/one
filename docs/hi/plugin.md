@@ -1,6 +1,6 @@
 ---
-id: docusaurus-plugin
-slug: /docusaurus-plugin
+id: hi-plugin
+slug: /hi-plugin
 title: 插件
 authors: kuizuo
 ---
