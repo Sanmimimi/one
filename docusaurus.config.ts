@@ -8,7 +8,7 @@ const beian = '京ICP备15006448号-3'
 const beian1 = '京公网安备110402430053号'
 
 const config: Config = {
-  title: '言兑林夕',
+  title: '美若黎明',
   url: 'https://kuizuo.me',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -62,6 +62,7 @@ const config: Config = {
           items: [
             { label: '归档', to: 'blog/archive' },
             { label: '标签', to: 'blog/tags' },
+            { label: '说说', to: 'docs/hi-nihao' },
           ],
         },
         // {
@@ -115,7 +116,7 @@ const config: Config = {
         <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
           beian1.match(/\d+/)?.[0]
         }" >${beian1}</a></p>
-        <p>Copyright © 2020 - ${new Date().getFullYear()} <a href="/" style="color:rgb(255, 255, 255); text-decoration: none;">言兑林夕</a>. All Rights Reserved</p>
+        <p>Copyright © 2020 - ${new Date().getFullYear()} <a href="/" style="color:rgb(255, 255, 255); text-decoration: none;">美若黎明</a>. All Rights Reserved</p>
         `,
     },
     algolia: {
