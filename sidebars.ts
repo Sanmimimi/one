@@ -10,7 +10,8 @@ export default {
         id: 'hi/hi-nihao',
       },
       items: [
-        'hi/hi-comment',      
+        'hi/hi-comment',
+        'hi/hi-comment',
       ],          
     },
   ],
