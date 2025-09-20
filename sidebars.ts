@@ -10,13 +10,8 @@ export default {
         id: 'hi/hi-nihao',
       },
       items: [
-        'hi/hi-config',
-        'hi/hi-style',
-        'hi/hi-component',
-        'hi/hi-plugin',
-        'hi/hi-search',
-        'hi/hi-comment',
-        'hi/hi-deploy',
+        'hi/hi-component',      
+         
       ],
     },
   ],
