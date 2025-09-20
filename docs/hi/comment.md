@@ -2,7 +2,6 @@
 id: hi-comment
 slug: /hi-comment
 title: 评论服务
-authors: kuizuo
 ---
 
 这里推荐两种评论服务
