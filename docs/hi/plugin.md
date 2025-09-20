@@ -2,7 +2,6 @@
 id: hi-plugin
 slug: /hi-plugin
 title: 插件
-authors: kuizuo
 ---
 
 在 `docusaurus.config.ts` 下的 plugins，可以看到所有插件以及插件配置。如下所示
