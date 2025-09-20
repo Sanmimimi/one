@@ -2,7 +2,6 @@
 id: hi-search
 slug: /hi-search
 title: 搜索
-authors: kuizuo
 ---
 
 > [搜索 | Docusaurus](https://docusaurus.io/zh-CN/docs/search)
