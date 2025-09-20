@@ -1,6 +1,6 @@
 ---
-id: docusaurus-style
-slug: /docusaurus-style
+id: hi-style
+slug: /hi-style
 title: 样式与页面
 authors: kuizuo
 ---
