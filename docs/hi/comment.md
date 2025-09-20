@@ -1,10 +1,10 @@
 ---
 id: hi-comment
 slug: /hi-comment
-title: 评论服务
+title: 说说
 ---
 
-这里推荐两种评论服务
+这里就是我的说说啦
 
 Giscus：基于GitHub Discussions，对程序员相对友好，评论信息提示通过github邮箱发送。
 
