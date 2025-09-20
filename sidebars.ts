@@ -11,8 +11,7 @@ export default {
       },
       items: [
         'hi/hi-comment',
-        
-      ],          
+      ],                   
     },
   ],
 } satisfies SidebarsConfig
