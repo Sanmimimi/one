@@ -1,6 +1,6 @@
 ---
-id: docusaurus-comment
-slug: /docusaurus-comment
+id: hi-comment
+slug: /hi-comment
 title: 评论服务
 authors: kuizuo
 ---
