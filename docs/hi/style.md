@@ -2,7 +2,6 @@
 id: hi-style
 slug: /hi-style
 title: 样式与页面
-authors: kuizuo
 ---
 
 ## [样式和布局](https://docusaurus.io/zh-CN/docs/styling-layout#styling-your-site-with-infima)
