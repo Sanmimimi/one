@@ -11,7 +11,7 @@ export default {
       },
       items: [
         'hi/hi-comment',
-        'hi/hi-comment',
+        
       ],          
     },
   ],
