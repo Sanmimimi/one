@@ -1,6 +1,6 @@
 ---
-id: docusaurus-deploy
-slug: /docusaurus-deploy
+id: hi-deploy
+slug: /hi-deploy
 title: 部署
 authors: kuizuo
 ---
