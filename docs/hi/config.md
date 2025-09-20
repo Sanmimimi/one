@@ -1,6 +1,6 @@
 ---
-id: docusaurus-config
-slug: /docusaurus-config
+id: hi-config
+slug: /hi-config
 title: 配置文件
 authors: kuizuo
 ---
