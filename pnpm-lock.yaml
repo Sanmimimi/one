@@ -1,0 +1,440 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@docusaurus/core':
+        specifier: 3.8.1
+        version: 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster':
+        specifier: ^3.8.1
+        version: 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@docusaurus/plugin-ideal-image':
+        specifier: 3.8.1
+        version: 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/plugin-pwa':
+        specifier: 3.8.1
+        version: 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/plugin-vercel-analytics':
+        specifier: ^3.8.1
+        version: 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/preset-classic':
+        specifier: 3.8.1
+        version: 3.8.1(@algolia/client-search@5.19.0)(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(@types/react@18.2.21)(react-dom@19.0.0)(react@19.0.0)(search-insights@2.8.2)(typescript@5.7.3)
+      '@docusaurus/theme-common':
+        specifier: 3.8.1
+        version: 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/theme-search-algolia':
+        specifier: 3.8.1
+        version: 3.8.1(@algolia/client-search@5.19.0)(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(@types/react@18.2.21)(react-dom@19.0.0)(react@19.0.0)(search-insights@2.8.2)(typescript@5.7.3)
+      '@giscus/react':
+        specifier: ^3.1.0
+        version: 3.1.0(react-dom@19.0.0)(react@19.0.0)
+      '@popperjs/core':
+        specifier: ^2.11.8
+        version: 2.11.8
+      '@radix-ui/react-slot':
+        specifier: ^1.1.1
+        version: 1.1.1(@types/react@18.2.21)(react@19.0.0)
+      autoprefixer:
+        specifier: ^10.4.20
+        version: 10.4.20(postcss@8.5.1)
+      class-variance-authority:
+        specifier: ^0.7.1
+        version: 0.7.1
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
+      docusaurus-plugin-baidu-tongji:
+        specifier: 0.0.0-beta.4
+        version: 0.0.0-beta.4
+      docusaurus-plugin-image-zoom:
+        specifier: ^2.0.0
+        version: 2.0.0
+      framer-motion:
+        specifier: ^11.18.1
+        version: 11.18.1(react-dom@19.0.0)(react@19.0.0)
+      mini-svg-data-uri:
+        specifier: ^1.4.4
+        version: 1.4.4
+      motion:
+        specifier: ^11.18.1
+        version: 11.18.1(react-dom@19.0.0)(react@19.0.0)
+      ora:
+        specifier: ^8.1.1
+        version: 8.1.1
+      postcss:
+        specifier: ^8.5.1
+        version: 8.5.1
+      prism-react-renderer:
+        specifier: ^2.4.1
+        version: 2.4.1(react@19.0.0)
+      prismjs:
+        specifier: ^1.29.0
+        version: 1.29.0
+      raw-loader:
+        specifier: ^4.0.2
+        version: 4.0.2(webpack@5.97.1)
+      react:
+        specifier: ^19.0.0
+        version: 19.0.0
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.0.0(react@19.0.0)
+      react-github-calendar:
+        specifier: ^4.5.4
+        version: 4.5.4(react@19.0.0)
+      react-icon-cloud:
+        specifier: ^4.1.7
+        version: 4.1.7(react@19.0.0)
+      '@floating-ui/react':
+        specifier: ^0.26.28
+        version: 0.26.28(react@19.0.0)(react-dom@19.0.0)
+      react-tweet:
+        specifier: ^3.2.1
+        version: 3.2.1(react@19.0.0)
+      tailwind-merge:
+        specifier: ^2.6.0
+        version: 2.6.0
+      tailwindcss:
+        specifier: ^3.4.17
+        version: 3.4.17
+    devDependencies:
+      '@docusaurus/module-type-aliases':
+        specifier: 3.8.1
+        version: 3.8.1
+      '@docusaurus/tsconfig':
+        specifier: ^3.8.1
+        version: 3.8.1
+      '@docusaurus/types':
+        specifier: 3.8.1
+        version: 3.8.1(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)
+      '@iconify/react':
+        specifier: ^5.2.0
+        version: 5.2.0(react@19.0.0)
+      '@stylistic/eslint-plugin':
+        specifier: 2.13.0
+        version: 2.13.0(eslint@9.18.0)(typescript@5.7.3)
+      '@tailwindcss/typography':
+        specifier: ^0.5.16
+        version: 0.5.16(tailwindcss@3.4.17)
+      '@typescript-eslint/eslint-plugin':
+        specifier: 8.20.0
+        version: 8.20.0(@typescript-eslint/parser@8.20.0)(eslint@9.18.0)(typescript@5.7.3)
+      eslint:
+        specifier: 9.18.0
+        version: 9.18.0
+      eslint-plugin-react:
+        specifier: ^7.37.4
+        version: 7.37.4(eslint@9.18.0)
+      eslint-plugin-tailwindcss:
+        specifier: 3.18.0
+        version: 3.18.0(tailwindcss@3.4.17)
+      typescript:
+        specifier: ~5.7.3
+        version: 5.7.3
+      typescript-eslint:
+        specifier: ^8.20.0
+        version: 8.20.0(eslint@9.18.0)(typescript@5.7.3)
+
+packages:
+
+  '@algolia/client-search@5.19.0':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>= 14.0.0'}
+
+  '@floating-ui/react@0.26.28(react@19.0.0)(react-dom@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/react-dom': 2.1.2(react-dom@19.0.0)(react@19.0.0)
+      '@floating-ui/utils': 0.2.8
+      tabbable: 6.2.0
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@docusaurus/core@3.8.1':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    hasBin: true
+    peerDependencies:
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+       react-dom: ^18.0.0 || ^19.0.0
+
+  '@types/react@18.2.21':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@types/prop-types': '*'
+      '@types/scheduler': '*'
+      csstype: ^3.0.2
+
+  'search-insights@2.8.2':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=8.16.0'}
+
+  'csstype@3.1.3':
+    resolution: {integrity: sha512-example}
+
+  '@types/prop-types@15.7.12':
+    resolution: {integrity: sha512-example}
+
+  '@types/scheduler@0.23.0':
+    resolution: {integrity: sha512-example}
+
+  '@floating-ui/react-dom@2.1.2(react-dom@19.0.0)(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/dom': 1.6.12
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  '@floating-ui/utils@0.2.8':
+    resolution: {integrity: sha512-example}
+
+  '@floating-ui/dom@1.6.12':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/core': 1.6.8
+      '@floating-ui/utils': 0.2.8
+
+  '@floating-ui/core@1.6.8':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@floating-ui/utils': 0.2.8
+
+  'tabbable@6.2.0':
+    resolution: {integrity: sha512-example}
+
+  '@docusaurus/plugin-vercel-analytics@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/preset-classic@3.8.1(@algolia/client-search@5.19.0)(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(@types/react@18.2.21)(react-dom@19.0.0)(react@19.0.0)(search-insights@2.8.2)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@algolia/client-search': 5.19.0
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      '@types/react': 18.2.21
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      search-insights: 2.8.2
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/theme-common@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/theme-search-algolia@3.8.1(@algolia/client-search@5.19.0)(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(@types/react@18.2.21)(react-dom@19.0.0)(react@19.0.0)(search-insights@2.8.2)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@algolia/client-search': 5.19.0
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      '@types/react': 18.2.21
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      search-insights: 2.8.2
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      '@swc/core':
+        optional: true
+      typescript:
+        optional: true
+
+  '@docusaurus/core@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    hasBin: true
+    dependencies:
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      '@rspack/core':
+        optional: true
+      '@swc/core':
+        optional: true
+      typescript:
+        optional: true
+
+  '@docusaurus/faster@3.8.1':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    peerDependencies:
+      '@docusaurus/types': '*'
+    peerDependenciesMeta:
+      '@swc/helpers':
+        optional: true
+
+  '@giscus/react@3.1.0':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  'react@19.0.0':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=0.10.0'}
+
+  'react-dom@19.0.0':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: ^19.0.0
+
+  'typescript@5.7.3':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  '@mdx-js/react@3.0.0':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: '>=16.8.0'
+
+  '@mdx-js/react@3.0.0(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      react: 19.0.0
+    peerDependencies:
+      react: '>=16.8.0'
+
+  '@rspack/core@1.4.5':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=16.0.0'}
+    hasBin: true
+
+  '@swc/core@1.12.11':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  '@swc/helpers@0.5.13':
+    resolution: {integrity: sha512-example}
+
+  '@docusaurus/types@3.8.1':
+    resolution: {integrity: sha512-example}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/types@3.8.1(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)':
+    resolution: {integrity: sha512-example}
+    dependencies:
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/faster@3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/types': 3.8.1(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)
+      '@swc/helpers': 0.5.13
+    peerDependencies:
+      '@docusaurus/types': '*'
+    peerDependenciesMeta:
+      '@swc/helpers':
+        optional: true
+
+  '@docusaurus/plugin-ideal-image@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+
+  '@docusaurus/plugin-pwa@3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)':
+    resolution: {integrity: sha512-example}
+    engines: {node: '>=20.0'}
+    dependencies:
+      '@docusaurus/core': 3.8.1(@docusaurus/faster@3.8.1)(@mdx-js/react@3.0.0)(@rspack/core@1.4.5)(@swc/core@1.12.11)(react-dom@19.0.0)(react@19.0.0)(typescript@5.7.3)
+      '@docusaurus/faster': 3.8.1(@docusaurus/types@3.8.1)(@swc/helpers@0.5.13)
+      '@mdx-js/react': 3.0.0(react@19.0.0)
+      '@rspack/core': 1.4.5
+      '@swc/core': 1.12.11
+      react: 19.0.0
+      react-dom: 19.0.0(react@19.0.0)
+      typescript: 5.7.3
+    peerDependencies:
+      '@docusaurus/core': ^3.0.0
+      '@mdx-js/react': ^3.0.0
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
