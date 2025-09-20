@@ -2,7 +2,6 @@
 id: hi-deploy
 slug: /hi-deploy
 title: 部署
-authors: kuizuo
 ---
 
 我之前使用 [Vercel](https://vercel.com) 一把梭，无需任何配置。这样我就只需要专注输出内容即可。这是我当时使用 Vercel 部署的文章 [Vercel 部署个人博客](/blog/vercel-deploy-blog)
