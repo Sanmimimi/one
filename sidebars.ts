@@ -7,7 +7,7 @@ export default {
       type: 'category',
       link: {
         type: 'doc',
-        id: 'hi/hi-guides',
+        id: 'hi/hi-nihao',
       },
       items: [
         'hi/hi-config',
